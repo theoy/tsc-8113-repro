@@ -1,0 +1,16 @@
+{
+  "name": "a",
+  "version": "0.1.0",
+  "private": true,
+  "main": "A",
+  "typings": "A",
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  },
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "dependencies": {
+    "ext": "file:../ext"
+  }
+}

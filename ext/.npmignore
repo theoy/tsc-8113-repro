@@ -1,0 +1,12 @@
+# ship a minimal package, of runnable JS files
+# and d.ts type definitions
+
+# exclude the original .ts files
+/**/*.ts
+
+# re-include the d.ts files
+!/**/*.d.ts
+
+# exclude design-time metadata
+/.npmignore
+/tsconfig.json

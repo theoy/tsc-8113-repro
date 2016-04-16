@@ -1,0 +1,13 @@
+{
+  "name": "ext",
+  "version": "0.1.0",
+  "private": true,
+  "main": "ext",
+  "typings": "ext",
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  },
+  "scripts": {
+    "prepublish": "tsc"
+  }
+}
